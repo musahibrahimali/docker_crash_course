@@ -1,0 +1,17 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "musah ibrahim ali",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon -L source/app.js",
+    "docker": "docker build -t myapi .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}

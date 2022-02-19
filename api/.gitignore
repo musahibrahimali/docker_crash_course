@@ -1,0 +1,14 @@
+.vscode
+.idea
+/vscode
+/idea
+/vs
+.vs
+
+/node_modules
+
+.env
+.evn.local
+.env.development
+.env.test
+*.log
